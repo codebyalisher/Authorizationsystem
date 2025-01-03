@@ -1,0 +1,8 @@
+sqlalchemy
+pydantic
+requests
+python-dotenv
+python-jose
+imagekitio
+aiofiles
+tailwindcss

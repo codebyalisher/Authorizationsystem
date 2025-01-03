@@ -1,0 +1,1690 @@
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+/*
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+  -webkit-tap-highlight-color: transparent;
+  /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-feature-settings: normal;
+  /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  /* 1 */
+  vertical-align: middle;
+  /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+.\!container {
+  width: 100% !important;
+}
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .\!container {
+    max-width: 640px !important;
+  }
+
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .\!container {
+    max-width: 768px !important;
+  }
+
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .\!container {
+    max-width: 1024px !important;
+  }
+
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .\!container {
+    max-width: 1280px !important;
+  }
+
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\!container {
+    max-width: 1536px !important;
+  }
+
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
+.static {
+  position: static;
+}
+
+.\!fixed {
+  position: fixed !important;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.end-1 {
+  inset-inline-end: 0.25rem;
+}
+
+.start-1 {
+  inset-inline-start: 0.25rem;
+}
+
+.isolate {
+  isolation: isolate;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.table {
+  display: table;
+}
+
+.inline-table {
+  display: inline-table;
+}
+
+.table-caption {
+  display: table-caption;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.table-column {
+  display: table-column;
+}
+
+.table-column-group {
+  display: table-column-group;
+}
+
+.table-footer-group {
+  display: table-footer-group;
+}
+
+.table-header-group {
+  display: table-header-group;
+}
+
+.table-row-group {
+  display: table-row-group;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.grid {
+  display: grid;
+}
+
+.contents {
+  display: contents;
+}
+
+.list-item {
+  display: list-item;
+}
+
+.\!hidden {
+  display: none !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.size-0 {
+  width: 0px;
+  height: 0px;
+}
+
+.size-1 {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+.size-2 {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.size-8 {
+  width: 2rem;
+  height: 2rem;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.flex-shrink {
+  flex-shrink: 1;
+}
+
+.shrink {
+  flex-shrink: 1;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.resize {
+  resize: both;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-wrap {
+  text-wrap: wrap;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.ordinal {
+  --tw-ordinal: ordinal;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.overline {
+  text-decoration-line: overline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline {
+  outline-style: solid;
+}
+
+.ring {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.drop-shadow {
+  --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.grayscale {
+  --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.\!invert {
+  --tw-invert: invert(100%) !important;
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
+}
+
+.invert {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.sepia {
+  --tw-sepia: sepia(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.\!filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.\[-11\:-9\] {
+  -11: -9;
+}
+
+.\[-16\:-8\] {
+  -16: -8;
+}
+
+.\[-1\:-1\] {
+  -1: -1;
+}
+
+.\[-1\:3\] {
+  -1: 3;
+}
+
+.\[-2\:-1\] {
+  -2: -1;
+}
+
+.\[-2\:2\] {
+  -2: 2;
+}
+
+.\[-2\:space\] {
+  -2: space;
+}
+
+.\[-3\:-1\] {
+  -3: -1;
+}
+
+.\[-4\:-1\] {
+  -4: -1;
+}
+
+.\[-4\:-2\] {
+  -4: -2;
+}
+
+.\[-5\:-2\] {
+  -5: -2;
+}
+
+.\[-5\:-4\] {
+  -5: -4;
+}
+
+.\[-6\:-1\] {
+  -6: -1;
+}
+
+.\[-\:\|\\s\] {
+  -: |\s;
+}
+
+.\[-\:\|\] {
+  -: |;
+}
+
+.\[-padding_len\:-1\] {
+  -padding_len: -1;
+}
+
+.\[_\:\.\] {
+  _: .;
+}
+
+.\[a-zA-Z0-9\:\.\] {
+  a-z-a--z0-9: .;
+}
+
+.\[a\:b\] {
+  a: b;
+}
+
+.\[ax\:ax\+indx\.ndim\] {
+  ax: ax+indx.ndim;
+}
+
+.\[b\:e\] {
+  b: e;
+}
+
+.\[bottom\:top\] {
+  bottom: top;
+}
+
+.\[charno\:m\.start\(\)\] {
+  charno: m.start();
+}
+
+.\[chunk_start\:pos\] {
+  chunk_start: pos;
+}
+
+.\[cols_start\:cols_end\] {
+  cols_start: cols end;
+}
+
+.\[cur\:space\] {
+  cur: space;
+}
+
+.\[current\:stop\] {
+  current: stop;
+}
+
+.\[current_position\:start_position\] {
+  current_position: start position;
+}
+
+.\[cursor\:length\] {
+  cursor: length;
+}
+
+.\[cursor\:start\] {
+  cursor: start;
+}
+
+.\[cursor_start\:_end_m\.start\(\)\] {
+  cursor_start: end m.start();
+}
+
+.\[cursor_start\:m2\.start\(\)\] {
+  cursor_start: m2.start();
+}
+
+.\[d1\:d2\] {
+  d1: d2;
+}
+
+.\[d\:\\ipython\] {
+  d: \ipython;
+}
+
+.\[dt1\:dt4\] {
+  dt1: dt4;
+}
+
+.\[ellipsis_pos\:ellipsis_pos\+1\] {
+  ellipsis_pos: ellipsis pos+1;
+}
+
+.\[end\:next\] {
+  end: next;
+}
+
+.\[end\:start\] {
+  end: start;
+}
+
+.\[end_pos\:pos\] {
+  end_pos: pos;
+}
+
+.\[expand_pos_lower_index\:expand_pos_upper_index\] {
+  expand_pos_lower_index: expand pos upper index;
+}
+
+.\[first\:last\] {
+  first: last;
+}
+
+.\[from_\:to\] {
+  from_: to;
+}
+
+.\[i\:endpos\] {
+  i: endpos;
+}
+
+.\[i\:i\+1\] {
+  i: i+1;
+}
+
+.\[i\:i\+3\] {
+  i: i+3;
+}
+
+.\[i\:i\+4\] {
+  i: i+4;
+}
+
+.\[i\:i\+7\] {
+  i: i+7;
+}
+
+.\[i\:i\+BLOCK\] {
+  i: i+BLOCK;
+}
+
+.\[i\:i\+lc2\] {
+  i: i+lc2;
+}
+
+.\[i\:i\+read_count\] {
+  i: i+read count;
+}
+
+.\[i\:i\+scale\] {
+  i: i+scale;
+}
+
+.\[i\:i\+size\] {
+  i: i+size;
+}
+
+.\[i\:j\] {
+  i: j;
+}
+
+.\[i\:n\] {
+  i: n;
+}
+
+.\[idx1\:idx2\] {
+  idx1: idx2;
+}
+
+.\[idx\:idx\+2\] {
+  idx: idx+2;
+}
+
+.\[idx\:idx\+6\] {
+  idx: idx+6;
+}
+
+.\[idx\:idx\+8\] {
+  idx: idx+8;
+}
+
+.\[idx\:idx\+segment\] {
+  idx: idx+segment;
+}
+
+.\[idx\:next\] {
+  idx: next;
+}
+
+.\[indent\:space_idx\] {
+  indent: space idx;
+}
+
+.\[index-2\:index\] {
+  index-2: index;
+}
+
+.\[index\:index\] {
+  index: index;
+}
+
+.\[index\:new_index\] {
+  index: new index;
+}
+
+.\[indicator_start\:indicator_end\] {
+  indicator_start: indicator end;
+}
+
+.\[inherit_ndx\:inherit_ndx\+1\] {
+  inherit_ndx: inherit ndx+1;
+}
+
+.\[j\:chunk_end\] {
+  j: chunk end;
+}
+
+.\[j\:j\+lc2\] {
+  j: j+lc2;
+}
+
+.\[j\:jn\] {
+  j: jn;
+}
+
+.\[k1\:k2\] {
+  k1: k2;
+}
+
+.\[k\:k\+n\+1\] {
+  k: k+n+1;
+}
+
+.\[k\:k\+n\] {
+  k: k+n;
+}
+
+.\[labelStart\:labelEnd\] {
+  label-start: labelEnd;
+}
+
+.\[last\:m\.start\(0\)\] {
+  last: m.start(0);
+}
+
+.\[last\:pos\] {
+  last: pos;
+}
+
+.\[last\:s\] {
+  last: s;
+}
+
+.\[last\:start\] {
+  last: start;
+}
+
+.\[lastE\:s\] {
+  last-e: s;
+}
+
+.\[lastPos\:pos\] {
+  last-pos: pos;
+}
+
+.\[last_to\:from_\] {
+  last_to: from;
+}
+
+.\[left\:right\] {
+  left: right;
+}
+
+.\[line_offset\:end_line\] {
+  line_offset: end line;
+}
+
+.\[lo\:hi\] {
+  lo: hi;
+}
+
+.\[loc\:maxloc\] {
+  loc: maxloc;
+}
+
+.\[loc\:newloc\] {
+  loc: newloc;
+}
+
+.\[lower_bound\:lineno\] {
+  lower_bound: lineno;
+}
+
+.\[lpos_start\:lpos_end\] {
+  lpos_start: lpos end;
+}
+
+.\[mem\:pos\] {
+  mem: pos;
+}
+
+.\[message_set_item_start\:pos\] {
+  message_set_item_start: pos;
+}
+
+.\[message_start\:message_end\] {
+  message_start: message end;
+}
+
+.\[middle\:end\] {
+  middle: end;
+}
+
+.\[model_fields_start\:model_fields_end\] {
+  model_fields_start: model fields end;
+}
+
+.\[month-1\:month\+1\] {
+  month-1: month+1;
+}
+
+.\[multiline_start\:lineno\+1\] {
+  multiline_start: lineno+1;
+}
+
+.\[new_i\:new_i\] {
+  new_i: new i;
+}
+
+.\[new_pos\:pos\] {
+  new_pos: pos;
+}
+
+.\[new_start\:c\.start\] {
+  new_start: c.start;
+}
+
+.\[o\:o\+1\] {
+  o: o+1;
+}
+
+.\[o\:o\+size\] {
+  o: o+size;
+}
+
+.\[offset\:ending\] {
+  offset: ending;
+}
+
+.\[offset\:next_offset\] {
+  offset: next offset;
+}
+
+.\[offset\:offset\+4\] {
+  offset: offset+4;
+}
+
+.\[offset\:offset\+8\] {
+  offset: offset+8;
+}
+
+.\[offset\:offset\+N\*d\.nbytes\] {
+  offset: offset+N*d.nbytes;
+}
+
+.\[offset\:offset\+size\+1\] {
+  offset: offset+size+1;
+}
+
+.\[offset\:offset\+smix_bytes\] {
+  offset: offset+smix bytes;
+}
+
+.\[offset_items\:offset_items\+count_items\] {
+  offset_items: offset items+count items;
+}
+
+.\[oldPosition\:self\.data\.position\] {
+  old-position: self.data.position;
+}
+
+.\[old_pos\:new_pos\] {
+  old_pos: new pos;
+}
+
+.\[oldpos\:newpos\] {
+  oldpos: newpos;
+}
+
+.\[p\:p\+1\] {
+  p: p+1;
+}
+
+.\[p\:p2\] {
+  p: p2;
+}
+
+.\[p\:q\] {
+  p: q;
+}
+
+.\[p\:start\] {
+  p: start;
+}
+
+.\[pieces_start\:pieces_end\] {
+  pieces_start: pieces end;
+}
+
+.\[pos\:endPos\] {
+  pos: endPos;
+}
+
+.\[pos\:end_pos-2\] {
+  pos: end pos-2;
+}
+
+.\[pos\:end_pos-mlen\] {
+  pos: end pos-mlen;
+}
+
+.\[pos\:end_pos\] {
+  pos: end pos;
+}
+
+.\[pos\:equal_pos\] {
+  pos: equal pos;
+}
+
+.\[pos\:matchStart\] {
+  pos: matchStart;
+}
+
+.\[pos\:maximum\] {
+  pos: maximum;
+}
+
+.\[pos\:new_pos\] {
+  pos: new pos;
+}
+
+.\[pos\:newpos\] {
+  pos: newpos;
+}
+
+.\[pos\:pos\+1\] {
+  pos: pos+1;
+}
+
+.\[pos\:pos\+size\] {
+  pos: pos+size;
+}
+
+.\[pos\:pos\+write_size\] {
+  pos: pos+write size;
+}
+
+.\[position\:offset\] {
+  position: offset;
+}
+
+.\[position\:start\] {
+  position: start;
+}
+
+.\[prev\:curr\] {
+  prev: curr;
+}
+
+.\[prev\:k\] {
+  prev: k;
+}
+
+.\[prev_end\:start\] {
+  prev_end: start;
+}
+
+.\[previous_end\:start\] {
+  previous_end: start;
+}
+
+.\[s\:s\+4\] {
+  s: s+4;
+}
+
+.\[s\:s\+8\] {
+  s: s+8;
+}
+
+.\[s\:s\+scale\] {
+  s: s+scale;
+}
+
+.\[salt_idx\:-1\] {
+  salt_idx: -1;
+}
+
+.\[salt_idx\:chk_idx-1\] {
+  salt_idx: chk idx-1;
+}
+
+.\[salt_idx\:chk_idx\] {
+  salt_idx: chk idx;
+}
+
+.\[six\:eix\] {
+  six: eix;
+}
+
+.\[st\:end\] {
+  st: end;
+}
+
+.\[start\:\"2022\"\] {
+  start: "2022";
+}
+
+.\[start\:delim\] {
+  start: delim;
+}
+
+.\[start\:edge\] {
+  start: edge;
+}
+
+.\[start\:end\] {
+  start: end;
+}
+
+.\[start\:loc\] {
+  start: loc;
+}
+
+.\[start\:marker\.position\] {
+  start: marker.position;
+}
+
+.\[start\:match\.end\(\)\] {
+  start: match.end();
+}
+
+.\[start\:pos\] {
+  start: pos;
+}
+
+.\[start\:seq\] {
+  start: seq;
+}
+
+.\[start\:start\+length\] {
+  start: start+length;
+}
+
+.\[start\:stop\] {
+  start: stop;
+}
+
+.\[start_i\:end_i\] {
+  start_i: end i;
+}
+
+.\[start_idx\:end_idx\] {
+  start_idx: end idx;
+}
+
+.\[start_index\:end_index\] {
+  start_index: end index;
+}
+
+.\[start_pos\:pos-1\] {
+  start_pos: pos-1;
+}
+
+.\[start_pos\:pos\] {
+  start_pos: pos;
+}
+
+.\[startloc\:loc\] {
+  startloc: loc;
+}
+
+.\[string_start\:string_end\] {
+  string_start: string end;
+}
+
+.\[t_1\:t_2\] {
+  t_1: t 2;
+}
+
+.\[text_start\:completion_start\] {
+  text_start: completion start;
+}
+
+.\[ticket\:10782\] {
+  ticket: 10782;
+}
+
+.\[ticket\:1523\] {
+  ticket: 1523;
+}
+
+.\[ticket\:1570\] {
+  ticket: 1570;
+}
+
+.\[ticket\:1892\] {
+  ticket: 1892;
+}
+
+.\[ticket\:2229\] {
+  ticket: 2229;
+}
+
+.\[ticket\:2362\] {
+  ticket: 2362;
+}
+
+.\[ticket\:2406\] {
+  ticket: 2406;
+}
+
+.\[ticket\:2619\] {
+  ticket: 2619;
+}
+
+.\[ticket\:3208\] {
+  ticket: 3208;
+}
+
+.\[ticket\:3633\] {
+  ticket: 3633;
+}
+
+.\[ticket\:3725\] {
+  ticket: 3725;
+}
+
+.\[ticket\:3801\] {
+  ticket: 3801;
+}
+
+.\[ticket\:3989\] {
+  ticket: 3989;
+}
+
+.\[ticket\:4457\] {
+  ticket: 4457;
+}
+
+.\[ticket\:4730\] {
+  ticket: 4730;
+}
+
+.\[ticket\:489\] {
+  ticket: 489;
+}
+
+.\[token_start_pos\:pos\] {
+  token_start_pos: pos;
+}
+
+.\[top\:bottom\] {
+  top: bottom;
+}
+
+.\[trail_start\:middle_semicolon_index\] {
+  trail_start: middle semicolon index;
+}
+
+.\[tzname_offset\:nul\] {
+  tzname_offset: nul;
+}
+
+.\[upto\:next\] {
+  upto: next;
+}
+
+.\[upto\:start\] {
+  upto: start;
+}
+
+.\[user\:passwd\@\] {
+  user: passwd@;
+}
+
+.\[val1\:val2\] {
+  val1: val2;
+}
+
+.\[value\:\"third\"\] {
+  value: "third";
+}
+
+.\[value\:value\+1\] {
+  value: value+1;
+}
+
+.\[value_start_pos\:pos\] {
+  value_start_pos: pos;
+}
